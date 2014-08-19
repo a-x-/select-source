@@ -15,10 +15,10 @@ html:
 `GET <url>`:
 ```json
 {
-  audi: { content:"Audi" },
-  vw: { content:"Volkswagen" },
-  mercedes: { content:"Mercedes" },
-  delorian: { content: "DeLorean DMC-12" }
+  "audi": { "content":"Audi" },
+  "vw": { "content":"Volkswagen" },
+  "mercedes": { "content":"Mercedes" },
+  "delorian": { "content": "DeLorean DMC-12" }
 }
 ```
 
