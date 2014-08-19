@@ -1,9 +1,9 @@
-select-soutce
+select-source
 =============
 
 Implement parsing declaration source data resource for select html element syntax
 
-## The Idea
+# The Idea
 
 HTML:
 ```html
@@ -33,3 +33,28 @@ Rendered HTML:
 ...
 <script src="/select-source.js">
 ```
+
+# Usage
+
+
+# Status
+
+This is under active development stage **(not production ready)**.
+
+| **Idea** | Alpha | Beta | RC | Production |
+|:--------:|:-----:|:----:|:--:|:----------:|
+|  **Ok**  |   —   |  —   |  — |      —     |
+
+
+# Demo
+
+# License
+
+All under MIT license.
+
+# Contribution
+
+You're welcome!
+I watch github issues and mailbox (me@invntrm.ru).
+
+English typo-fixes are welcome too.
