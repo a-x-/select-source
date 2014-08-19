@@ -5,14 +5,14 @@ Implement parsing declaration source data resource for select html element synta
 
 ## The Idea
 
-html:
+HTML:
 ```html
-<select src="<url>" name="car-type" ></select>
+<select src="/car-types.json" name="car-type" ></select>
 ...
 <script src="/select-source.js">
 ```
 
-`GET <url>`:
+`GET /car-types.json`:
 ```json
 {
   "audi": { "content":"Audi" },
@@ -22,7 +22,7 @@ html:
 }
 ```
 
-rendered html:
+Rendered HTML:
 ```html
 <select src="<url>" name="car-type" >
  <option value="audi">Audi</option>
